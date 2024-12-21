@@ -31,6 +31,7 @@ import MobileResponsiveWarning from "./components/MobileResponsiveWarning";
 import { StarkludoSchemaType } from "./dojo/gen/models.gen";
 import { SDK } from "@dojoengine/sdk";
 import Settings from "./components/Settings";
+import ToolboxPage from "./components/Toolbox";
 
 const App = ({ sdk }: { sdk: SDK<StarkludoSchemaType> }) => {
   console.log("SDK initialized:", sdk);
@@ -129,6 +130,8 @@ const App = ({ sdk }: { sdk: SDK<StarkludoSchemaType> }) => {
                   <Routes>
                   <Route path="/color-settings" element={<ColorSettings/>}/>
                   <Route path="/settings" element={<Settings />} />
+                  <Route path="/toolbox" element={<ToolboxPage />} />
+
                   <Route path="/" element={ <>
                       <div className="game-behaviour-warning">
                         <FiAlertTriangle size={20} />
