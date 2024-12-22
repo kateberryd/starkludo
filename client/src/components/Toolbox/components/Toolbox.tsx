@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-import "../styles/Toolbox.scss";
-
+import "../../../styles/toolbox/Toolbox.scss";
 import dice10 from "../../../assets/images/dice-10.svg";
 import dice9 from "../../../assets/images/dice-9.svg";
 import dice8 from "../../../assets/images/dice-8.svg";

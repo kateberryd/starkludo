@@ -1,5 +1,5 @@
 import Board from "../../../assets/images/board.png";
-import "../styles/OptionCard.scss";
+import "../../../styles/toolbox/OptionCard.scss";
 
 export default function OptionCard({
   active,
